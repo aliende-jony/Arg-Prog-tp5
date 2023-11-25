@@ -1,0 +1,10 @@
+.App {
+  border: 1px solid black;
+  border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+  text-align:center;
+  width:70%;
+  margin: 6rem;
+  padding: 6rem;
+}

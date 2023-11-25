@@ -1,0 +1,29 @@
+.btn{
+    gap: .5rem;
+}
+
+.conteo{
+    display: flex;
+    text-align: center;
+    justify-content: baseline;
+}
+
+@media all and (max-width: 768px){
+    .btn{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem;
+    }
+    .btn-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .conteo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
